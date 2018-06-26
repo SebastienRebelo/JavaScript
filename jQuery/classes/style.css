@@ -1,0 +1,56 @@
+.conteneur{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.carre{
+  width: 70px;
+  height: 70px;
+  border: 1px solid red;
+}
+
+.cercle{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: 1px solid red;
+}
+
+.losange{
+  width: 70px;
+  height: 70px;
+  border: 1px solid red;
+  transform: rotate(45deg);
+}
+
+#vide{
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 40px 10px
+}
+
+#oui{
+  background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 40px 10px
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.bouton{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.bg{
+  background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+  border: 1px solid black;
+}
